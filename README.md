@@ -6,4 +6,5 @@ The application demonstrates how application's state (a counter) can be stored i
 The application has the following react components:
 - CounterControl: a functional react component that acts as a button.
 - CounterOutput: a functional react component that acts as a label.
-- InputControl: A class based react component that has two input-text boxes, two buttons and a label. It also maintains local state.  
+- InputControl: A class based react component that has two input-text boxes, two buttons and a label. It connects to the redux store and also maintains its local state. 
+- Counter: A class based react component that composes the counter dashboard. It connects to the redux store. 
